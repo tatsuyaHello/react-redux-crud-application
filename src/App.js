@@ -2,9 +2,10 @@ import React from 'react';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello, tatsuya</h1>
-    </div>
+    <React.Fragment>
+      <label htmlFor="bar">bar</label>
+      <input type="text" onChange={() => {console.log("HELLO")}} />
+    </React.Fragment>
   );
 }
 
